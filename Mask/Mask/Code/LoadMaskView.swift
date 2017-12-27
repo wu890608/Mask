@@ -29,7 +29,11 @@ class LoadMaskView{
             let maskView = MaskView(frame: UIScreen.main.bounds)
             
             maskView.add(rect: CGRect(x: showView!.frame.width - 180, y: 205, width: 170, height: 50), radius: 10)
-            maskView.add(image: UIImage(named:"首页引导")!, frame: CGRect(x: showView!.frame.width - 220, y: 270, width: 210, height: 83))
+            var image = UIImage()
+            if let i = UIImage(named:"首页引导"){
+                image = i
+            }
+            maskView.add(image: image, frame: CGRect(x: showView!.frame.width - 220, y: 270, width: 210, height: 83))
             
             maskView.add(ovalRect: CGRect(x: 12, y: 22, width: 40, height: 40))
             
