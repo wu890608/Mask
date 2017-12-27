@@ -14,6 +14,7 @@
 		94A4B11C1FF344B0008536EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B11A1FF344B0008536EF /* LaunchScreen.storyboard */; };
 		94A4B1251FF3451C008536EF /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B1241FF3451C008536EF /* MaskView.swift */; };
 		94A4B1271FF34F61008536EF /* LoadMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B1261FF34F61008536EF /* LoadMaskView.swift */; };
+		94A4B12C1FF372D5008536EF /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B12B1FF372D5008536EF /* mask.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		94A4B11D1FF344B0008536EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A4B1241FF3451C008536EF /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
 		94A4B1261FF34F61008536EF /* LoadMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMaskView.swift; sourceTree = "<group>"; };
+		94A4B12B1FF372D5008536EF /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		94A4B1101FF344B0008536EF /* Mask */ = {
 			isa = PBXGroup;
 			children = (
+				94A4B12A1FF372C3008536EF /* Image */,
 				94A4B1231FF344F2008536EF /* Code */,
 				94A4B1111FF344B0008536EF /* AppDelegate.swift */,
 				94A4B1131FF344B0008536EF /* ViewController.swift */,
@@ -76,6 +79,14 @@
 				94A4B1261FF34F61008536EF /* LoadMaskView.swift */,
 			);
 			path = Code;
+			sourceTree = "<group>";
+		};
+		94A4B12A1FF372C3008536EF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				94A4B12B1FF372D5008536EF /* mask.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				94A4B11C1FF344B0008536EF /* LaunchScreen.storyboard in Resources */,
 				94A4B1191FF344B0008536EF /* Assets.xcassets in Resources */,
 				94A4B1171FF344B0008536EF /* Main.storyboard in Resources */,
+				94A4B12C1FF372D5008536EF /* mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
