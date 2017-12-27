@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Mask"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "design mask"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "mask share"
+  s.description  = "mask share and create mask,use so easy."
 
   s.homepage     = "https://github.com/wu890608/Mask"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wu890608/Mask.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/wu890608/Mask.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Mask/Mask/Code/*.{swift}"
+  s.source_files  = "Mask/Mask/Code/*.swift"
   #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
